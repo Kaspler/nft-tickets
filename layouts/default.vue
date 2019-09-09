@@ -55,11 +55,6 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        },
-        {
-          icon: 'mdi-chart-bubble',
           title: 'Create event',
           to: '/events/create'
         },
@@ -67,6 +62,16 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Browse events',
           to: '/events'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'My tickets',
+          to: '/tickets'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Verify ticket',
+          to: '/verify'
         }
       ],
       miniVariant: false,

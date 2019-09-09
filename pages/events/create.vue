@@ -10,6 +10,8 @@ v-layout(column='', justify-center='', align-center='')
           v-label Event date
           br
           v-date-picker(v-model="date" label='Date')
+          br
+          v-switch(v-model="ticketsWithBalance" :label="`Tickets with balance`")
       v-card-actions
         v-spacer
         v-btn(nuxt='', to='/inspire')
@@ -23,6 +25,7 @@ export default {
     return {
       name: '',
       description: '',
+      ticketsWithBalance: '',
       date: new Date().toISOString().substr(0, 10)
     }
   }
